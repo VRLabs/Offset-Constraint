@@ -9,7 +9,7 @@ A hierarchy of animated constraints that display how to move an object in world 
 
 ## How it works
 
-While the "Root" transform is moving, the "End" transform can be constrained to the "Container" to preserve it's offsets. When the Container needs to move, it can be constrained to the End transform, and the End constraint can be disabled, leaving the End transform and the Container free to move from the previous offset with the parent Root transform.
+Constraints reference each other as sources and swap their enabled state to preserved offset transforms.
 
 ## Install guide
 
