@@ -1,0 +1,19 @@
+{
+  "name" : "com.vrlabs.offset-constraint",
+  "displayName" : "Offset Constraint",
+  "version" : "master",
+  "unity" : "2019.4",
+  "description" : "A hierarchy of animated constraints that display how to move an object in world space while preserving previously generated offsets.",
+  "author" : {
+    "name" : "VRLabs",
+    "email" : "mail@vrlabs.dev",
+    "url" : "https://github.vrlabs.dev"
+  },
+  "vpmDependencies" : {
+    "com.vrchat.avatars" : "3.1.0"
+  },
+  "url" : "https://github.com/VRLabs/Offset-Constraint/releases/download/master/Offset_Constraint_master.zip",
+  "legacyFolders" : {
+    "Assets\\VRLabs\\Avatars 3.0 Manager" : "594678af05e88bd41bf2421d9acb9365"
+  }
+}
