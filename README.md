@@ -11,6 +11,10 @@ A hierarchy of animated constraints that display how to move an object in world 
 
 Constraints reference each other as sources and swap their enabled state to preserved offset transforms.
 
+## Preview
+
+https://user-images.githubusercontent.com/45078979/181394000-6b8d70a5-56bb-49b2-94f2-92f6fd528cff.mp4
+
 ## Install guide
 
 Merge the FX controller to your own FX controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
