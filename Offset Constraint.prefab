@@ -98,8 +98,8 @@ ParentConstraint:
   m_GameObject: {fileID: 7133360563044135375}
   m_Enabled: 1
   m_Weight: 1
-  m_TranslationAtRest: {x: -0.5914519, y: 0.17446089, z: -0.7499938}
-  m_RotationAtRest: {x: 2.8343225, y: 126.9642, z: 126.96422}
+  m_TranslationAtRest: {x: 0, y: 0, z: 0}
+  m_RotationAtRest: {x: 0, y: 0, z: 0}
   m_TranslationOffsets:
   - {x: 0, y: 0, z: 0}
   m_RotationOffsets:
@@ -326,8 +326,8 @@ ParentConstraint:
   m_GameObject: {fileID: 7133360563625440726}
   m_Enabled: 1
   m_Weight: 1
-  m_TranslationAtRest: {x: 0.43582633, y: 0.86711377, z: 0.030193865}
-  m_RotationAtRest: {x: -41.018208, y: 142.74948, z: 142.74951}
+  m_TranslationAtRest: {x: 0, y: 0, z: 0}
+  m_RotationAtRest: {x: 0, y: 0, z: 0}
   m_TranslationOffsets:
   - {x: 0, y: 0, z: 0}
   - {x: 0, y: 0, z: 0}
