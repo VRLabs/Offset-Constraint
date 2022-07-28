@@ -23,11 +23,11 @@ Expand the prefab, and locate "Offset Target". Move this object out of the prefa
 
 ## How to use
 
-"OffsetConstraint.Control" will allow the "Container" transform to move when the value is False. The Container will be left in the world when OffsetConstraint.Control is True.
+"OffsetConstraint.Control" will allow the "Container" transform to move when the value is False. The Container will be left in the world when OffsetConstraint.Control is True. 
 
 "OffsetConstraint.Reset" set to True will override OffsetConstraint.Control and reset the Container to the Offset Target.
 
-The default value is False. 
+The default value of both parameters is False. 
 
 ## Downloads
 
