@@ -188,8 +188,8 @@ ParentConstraint:
   m_GameObject: {fileID: 7133360563479410480}
   m_Enabled: 1
   m_Weight: 1
-  m_TranslationAtRest: {x: -0.6429421, y: 0.22686815, z: -0.52286935}
-  m_RotationAtRest: {x: -0.71728647, y: 137.81342, z: 137.81343}
+  m_TranslationAtRest: {x: 0, y: 0, z: 0}
+  m_RotationAtRest: {x: 0, y: 0, z: 0}
   m_TranslationOffsets:
   - {x: 0, y: 0, z: 0}
   m_RotationOffsets:

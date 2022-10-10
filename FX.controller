@@ -65,13 +65,13 @@ AnimatorController:
   m_Name: FX
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: OffsetConstraint.Control
+  - m_Name: OffsetConstraint/Control
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: OffsetConstraint.Reset
+  - m_Name: OffsetConstraint/Reset
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -127,10 +127,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: OffsetConstraint.Control
+    m_ConditionEvent: OffsetConstraint/Control
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: OffsetConstraint.Reset
+    m_ConditionEvent: OffsetConstraint/Reset
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2430516280319610474}
@@ -155,7 +155,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: OffsetConstraint.Reset
+    m_ConditionEvent: OffsetConstraint/Reset
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 537518229334750115}
@@ -180,10 +180,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: OffsetConstraint.Control
+    m_ConditionEvent: OffsetConstraint/Control
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: OffsetConstraint.Reset
+    m_ConditionEvent: OffsetConstraint/Reset
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 8472934872235299227}
@@ -208,7 +208,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: OffsetConstraint.Reset
+    m_ConditionEvent: OffsetConstraint/Reset
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 537518229334750115}
@@ -233,10 +233,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: OffsetConstraint.Control
+    m_ConditionEvent: OffsetConstraint/Control
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: OffsetConstraint.Reset
+    m_ConditionEvent: OffsetConstraint/Reset
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2430516280319610474}
@@ -261,10 +261,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: OffsetConstraint.Control
+    m_ConditionEvent: OffsetConstraint/Control
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: OffsetConstraint.Reset
+    m_ConditionEvent: OffsetConstraint/Reset
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 8472934872235299227}
