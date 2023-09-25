@@ -23,23 +23,30 @@ A constraint system to preserve offsets
 
 ---
 
-
 ## How it works
 
 * Constraints reference each other as sources and swap their enabled state to preserve offset transforms.
 
 ## Install guide
+
 * Merge the Animator Controller ``Offset Constraint FX`` to your own FX Controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
 * Drag & drop the ``Offset Constraint`` prefab into the base of your Hierarchy.
 * Right click and unpack the prefab, then drag & drop it onto your avatar.
-* Move the ``Offset Target`` out of the prefab to anywhere else on your avatar.
+* Expand the prefab hierarchy and find ``Offset Target``
+* Move ``Offset Target`` outside of ``Offset Constraint`` and place it anywhere in your avatars hierarchy as needed.
 
 ## How to use
+
+* Place the objects you want to to use inside ``Offset Constraint`` -> ``Container``.
+  * Alternatively you can constrain the objects to ``Container``.
+
+There are two bools in your FX Controller:
 
 * ``OffsetConstraint/Control``:
   * True: Places the ``Container`` in world space and allows the user to set the specified offset.
   * False: Constraints the ``Container`` to the ``Offset Target`` with the specified offset.
 * ``OffsetConstraint/Reset`` moves the ``Container`` to the ``Offset Target``.
+
 ## Performance stats
 
 ```c++
