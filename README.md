@@ -29,6 +29,8 @@ A constraint system to preserve offsets
 
 ## Install guide
 
+https://github.com/VRLabs/Offset-Constraint/assets/76777936/f20790ad-0a5e-49ee-aaac-3b2e380f5f93
+
 * Merge the Animator Controller ``Offset Constraint FX`` to your own FX Controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
 * Drag & drop the ``Offset Constraint`` prefab into the base of your Hierarchy.
 * Right click and unpack the prefab, then drag & drop it onto your avatar.
