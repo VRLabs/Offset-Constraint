@@ -12,7 +12,8 @@
 
 A constraint system to preserve offsets
 
-![Alt text](https://raw.githubusercontent.com/VRLabs/Offset-Constraint/main/Media/trollcull.gif)
+![OffsetConstraint](https://github.com/VRLabs/Offset-Constraint/assets/76777936/80749a88-a705-4243-8552-590cd70d327f)
+
 
 ### ⬇️ [Download latest Unitypackage](https://github.com/VRLabs/Offset-Constraint/releases/latest)
 
