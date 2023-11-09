@@ -15,7 +15,7 @@ A constraint system to preserve offsets
 ![OffsetConstraint](https://github.com/VRLabs/Offset-Constraint/assets/76777936/f38a68f8-c502-4008-a6ba-7820c08d6232)
 
 
-### ⬇️ [Download latest Unitypackage](https://github.com/VRLabs/Offset-Constraint/releases/latest)
+### ⬇️ [Download Latest Version](https://github.com/VRLabs/Offset-Constraint/releases/latest)
 
 <!-- 
 ### 📦 [Add to VRChat Creator Companion]() -->
