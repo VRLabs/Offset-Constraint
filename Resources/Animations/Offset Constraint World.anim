@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Reset
+  m_Name: Offset Constraint World
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -22,7 +22,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -31,7 +31,7 @@ AnimationClip:
         outWeight: 0
       - serializedVersion: 3
         time: 0.016666668
-        value: 1
+        value: 0
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -97,7 +97,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_Sources.Array.data[0].weight
+    attribute: m_Sources.Array.data[1].weight
     path: Offset Constraint/Container
     classID: 1773428102
     script: {fileID: 0}
@@ -125,7 +125,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_Sources.Array.data[1].weight
+    attribute: m_Sources.Array.data[0].weight
     path: Offset Constraint/Container
     classID: 1773428102
     script: {fileID: 0}
@@ -153,14 +153,14 @@ AnimationClip:
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 730866628
-      attribute: 15
+      attribute: 31
       script: {fileID: 0}
       typeID: 1773428102
       customType: 35
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 730866628
-      attribute: 31
+      attribute: 15
       script: {fileID: 0}
       typeID: 1773428102
       customType: 35
@@ -192,7 +192,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -201,7 +201,7 @@ AnimationClip:
         outWeight: 0
       - serializedVersion: 3
         time: 0.016666668
-        value: 1
+        value: 0
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -267,7 +267,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_Sources.Array.data[0].weight
+    attribute: m_Sources.Array.data[1].weight
     path: Offset Constraint/Container
     classID: 1773428102
     script: {fileID: 0}
@@ -295,7 +295,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_Sources.Array.data[1].weight
+    attribute: m_Sources.Array.data[0].weight
     path: Offset Constraint/Container
     classID: 1773428102
     script: {fileID: 0}

@@ -35,7 +35,7 @@ AnimatorStateMachine:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Offset Locking
+  m_Name: Offset Constraint
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 8472934872235299227}
@@ -45,7 +45,7 @@ AnimatorStateMachine:
     m_Position: {x: 30, y: 180, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 537518229334750115}
-    m_Position: {x: -80, y: 250, z: 0}
+    m_Position: {x: -90, y: 250, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -62,7 +62,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: FX
+  m_Name: Offset Constraint FX
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: OffsetConstraint/Control
@@ -70,16 +70,16 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: OffsetConstraint/Reset
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
-    m_Name: Offset Locking
+    m_Name: Offset Constraint
     m_StateMachine: {fileID: -1657253081244877711}
     m_Mask: {fileID: 0}
     m_Motions: []

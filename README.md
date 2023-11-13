@@ -1,46 +1,93 @@
-# Offset Constraint
-  
-[![Generic badge](https://img.shields.io/badge/Unity-2019.4.31f1-informational.svg)](https://unity3d.com/unity/whats-new/2019.4.31)
-[![Generic badge](https://img.shields.io/badge/SDK-AvatarSDK3-informational.svg)](https://vrchat.com/home/download)
-[![Generic badge](https://img.shields.io/badge/License-MIT-informational.svg)](https://github.com/VRLabs/Offset-Constraint/blob/main/LICENSE)
-[![Generic badge](https://img.shields.io/github/downloads/VRLabs/Offset-Constraint/total?label=Downloads)](https://github.com/VRLabs/Offset-Constraint/releases/latest)
+<div align="center">
 
-A hierarchy of animated constraints that display how to move an object in world space while preserving previously generated offsets.
+# Offset Constraint
+
+[![Generic badge](https://img.shields.io/github/downloads/VRLabs/Offset-Constraint/total?label=Downloads)](https://github.com/VRLabs/Offset-Constraint/releases/latest)
+[![Generic badge](https://img.shields.io/badge/License-MIT-informational.svg)](https://github.com/VRLabs/Offset-Constraint/blob/main/LICENSE)
+[![Generic badge](https://img.shields.io/badge/Unity-2019.4.31f1-lightblue.svg)](https://unity3d.com/unity/whats-new/2019.4.31)
+[![Generic badge](https://img.shields.io/badge/SDK-AvatarSDK3-lightblue.svg)](https://vrchat.com/home/download)
+
+[![Generic badge](https://img.shields.io/discord/706913824607043605?color=%237289da&label=DISCORD&logo=Discord&style=for-the-badge)](https://discord.vrlabs.dev/)
+[![Generic badge](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dvrlabs%26type%3Dpatrons&style=for-the-badge)](https://patreon.vrlabs.dev/)
+
+A constraint system to preserve offsets
+
+![OffsetConstraint](https://github.com/VRLabs/Offset-Constraint/assets/76777936/f38a68f8-c502-4008-a6ba-7820c08d6232)
+
+
+### ⬇️ [Download Latest Version](https://github.com/VRLabs/Offset-Constraint/releases/latest)
+
+<!-- 
+### 📦 [Add to VRChat Creator Companion]() -->
+
+</div>
+
+---
 
 ## How it works
 
-Constraints reference each other as sources and swap their enabled state to preserved offset transforms.
-
-## Preview
-
-https://user-images.githubusercontent.com/45078979/181394000-6b8d70a5-56bb-49b2-94f2-92f6fd528cff.mp4
+* Constraints reference each other as sources and swap their enabled state to preserve offset transforms.
 
 ## Install guide
 
-Merge the FX controller to your own FX controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
+https://github.com/VRLabs/Offset-Constraint/assets/76777936/f20790ad-0a5e-49ee-aaac-3b2e380f5f93
 
-"Offset Constraint.prefab" should go to the base of your Unity scene, which will give it base Unity scaling.
-
-Unpack the prefab by right-clicking it and move the prefab to base of your avatar.
-
-Expand the prefab, and locate "Offset Target". Move this object out of the prefab to anywhere else on your avatar.
+* Merge the Animator Controller ``Offset Constraint FX`` to your own FX Controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
+* Drag & drop the ``Offset Constraint`` prefab into the base of your Hierarchy.
+* Right click and unpack the prefab, then drag & drop it onto your avatar.
+* Expand the prefab hierarchy and find ``Offset Target``
+* Move ``Offset Target`` outside of ``Offset Constraint`` and place it anywhere in your avatars hierarchy as needed.
 
 ## How to use
 
-"OffsetConstraint/Control" will allow the "Container" transform to move when the value is False. The Container will be left in the world when OffsetConstraint/Control is True. 
+* Place the objects you want to to use inside ``Offset Constraint`` -> ``Container``.
+  * Alternatively you can constrain the objects to ``Container``.
 
-"OffsetConstraint/Reset" set to True will override OffsetConstraint/Control and reset the Container to the Offset Target.
+There are two bools in your FX Controller:
 
-The default value of both parameters is False. 
+* ``OffsetConstraint/Control``:
+  * True: Places the ``Container`` in world space and allows the user to set the specified offset.
+  * False: Constraints the ``Container`` to the ``Offset Target`` with the specified offset.
+* ``OffsetConstraint/Reset`` moves the ``Container`` to the ``Offset Target``.
 
-## Downloads
+## Performance stats
 
-You can grab the latest version of the Offset Constraint in [Releases](https://github.com/VRLabs/Offset-Constraint/releases/latest).
+```c++
+Constraints:        2
+FX Animator Layers: 1
+```
+
+## Hierarchy layout
+
+```html
+Offset Constraint
+|-Container
+|  |-Cube
+|-Root
+|  |-End
+|-Offset Target
+```
+
+## Contributors
+
+* [lin](https://github.com/oofdesu)
 
 ## License
 
 Offset Constraint is available as-is under MIT. For more information see [LICENSE](https://github.com/VRLabs/Offset-Constraint/blob/main/LICENSE).
 
-## Contact us
+​
 
-If you need help, our support channel is on [Discord](https://discord.vrlabs.dev).
+<div align="center">
+
+[<img src="https://github.com/VRLabs/Resources/raw/main/Icons/VRLabs.png" width="50" height="50">](https://vrlabs.dev "VRLabs")
+<img src="https://github.com/VRLabs/Resources/raw/main/Icons/Empty.png" width="10">
+[<img src="https://github.com/VRLabs/Resources/raw/main/Icons/Discord.png" width="50" height="50">](https://discord.vrlabs.dev/ "VRLabs")
+<img src="https://github.com/VRLabs/Resources/raw/main/Icons/Empty.png" width="10">
+[<img src="https://github.com/VRLabs/Resources/raw/main/Icons/Patreon.png" width="50" height="50">](https://patreon.vrlabs.dev/ "VRLabs")
+<img src="https://github.com/VRLabs/Resources/raw/main/Icons/Empty.png" width="10">
+[<img src="https://github.com/VRLabs/Resources/raw/main/Icons/Twitter.png" width="50" height="50">](https://twitter.com/vrlabsdev "VRLabs")
+
+</div>
+
+---
