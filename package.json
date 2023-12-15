@@ -2,6 +2,7 @@
   "name": "com.vrlabs.offset-constraint",
   "displayName": "Offset Constraint",
   "version": "1.0.999",
+  "license": "MIT",
   "unity": "2019.4",
   "description": "A hierarchy of animated constraints that display how to move an object in world space while preserving previously generated offsets.",
   "author": {
