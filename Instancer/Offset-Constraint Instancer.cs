@@ -18,7 +18,7 @@ namespace VRLabs.OffsetConstraint
 			"package.json"
 		};
 
-		[MenuItem("VRLabs/Offset Constraint")]
+		[MenuItem("VRLabs/Create Instance/Offset Constraint")]
 		public static void FancyPackage()
 		{
 			Type instancerType = AppDomain.CurrentDomain.GetAssemblies()
