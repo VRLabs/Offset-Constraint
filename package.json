@@ -18,13 +18,13 @@
     "Assets\\VRLabs\\Offset Constraint": "594678af05e88bd41bf2421d9acb9365"
   },
   "unityPackageDestinationFolder": "Assets/VRLabs/Offset Constraint",
-  "unitypackageDestinationFolderMetas": {
-    "Assets/VRLabs": "652a1ba5b00554143bc9a76307dbc4e8",
-    "Assets/VRLabs/Offset Constraint": "594678af05e88bd41bf2421d9acb9365"
-  },
   "vccRepoCategory": "components",
   "media": {
     "previewImage": "https://github.com/VRLabs/Offset-Constraint/blob/main/Media/Preview.webp",
     "previewGif": "https://github.com/VRLabs/Offset-Constraint/blob/main/Media/Preview.gif"
+  },
+  "unityPackageDestinationFolderMetas": {
+    "Assets/VRLabs": "652a1ba5b00554143bc9a76307dbc4e8",
+    "Assets/VRLabs/Offset Constraint": "594678af05e88bd41bf2421d9acb9365"
   }
 }
