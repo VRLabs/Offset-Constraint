@@ -3,7 +3,7 @@
   "displayName": "Offset Constraint",
   "version": "1.0.999",
   "license": "MIT",
-  "unity": "2019.4",
+  "unity": "2022.3",
   "description": "A hierarchy of animated constraints that display how to move an object in world space while preserving previously generated offsets.",
   "author": {
     "name": "VRLabs",
@@ -26,5 +26,6 @@
   "unityPackageDestinationFolderMetas": {
     "Assets/VRLabs": "652a1ba5b00554143bc9a76307dbc4e8",
     "Assets/VRLabs/Offset Constraint": "594678af05e88bd41bf2421d9acb9365"
-  }
+  },
+  "questCompatibility": "full"
 }
