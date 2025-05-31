@@ -25,7 +25,7 @@ A constraint system to preserve offsets
 
 ## How it works
 
-* Constraints reference each other as sources and swap their enabled state to preserve offset transforms.
+* Uses native VRCConstraint components to preserve offset transforms via the "Rebake Offsets When Unfrozen" setting. Offsets are reset by swapping to a secondary source that mirrors the original but maintains zero offsets, preventing unintended rebakes.
 
 ## Install guide
 
@@ -42,20 +42,20 @@ https://github.com/VRLabs/Offset-Constraint/assets/76777936/f20790ad-0a5e-49ee-a
 
 ## How to use
 
-* Place the objects you want to to use inside ``Offset Constraint`` -> ``Container``.
-  * Alternatively you can constrain the objects to ``Container``.
+* Place the objects you want to use inside ``Offset Constraint``.
+  * Alternatively you can constrain the objects to ``Offset Constraint``.
 
 There are two bools in your FX Controller:
 
 * ``OffsetConstraint/Control``:
-  * True: Places the ``Container`` in world space and allows the user to set the specified offset.
-  * False: Constraints the ``Container`` to the ``Offset Target`` with the specified offset.
-* ``OffsetConstraint/Reset`` moves the ``Container`` to the ``Offset Target``.
+  * True: Places ``Offset Constraint`` in world space and allows the user to generate an offset.
+  * False: Constrains the ``Offset Constraint`` to the ``Offset Target`` with the generated offset.
+* ``OffsetConstraint/Reset`` moves ``Offset Constraint`` to the ``Offset Target``.
 
 ## Performance stats
 
 ```c++
-Constraints:        2
+Constraints:        1
 FX Animator Layers: 1
 ```
 
@@ -63,10 +63,7 @@ FX Animator Layers: 1
 
 ```html
 Offset Constraint
-|-Container
-|  |-Cube
-|-Root
-|  |-End
+|-Cube
 |-Offset Target
 ```
 
