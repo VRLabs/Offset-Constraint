@@ -25,7 +25,8 @@ A constraint system to preserve offsets
 
 ## How it works
 
-* Uses native VRCConstraint components to preserve offset transforms via the "Rebake Offsets When Unfrozen" setting. Offsets are reset by swapping to a secondary source that mirrors the original but maintains zero offsets, preventing unintended rebakes.
+* Uses native VRCConstraint components to preserve offset transforms via the "Rebake Offsets When Unfrozen" setting.
+* Offsets are reset by swapping to a secondary source that mirrors the original but maintains zero offsets, preventing unintended rebakes.
 
 ## Install guide
 
